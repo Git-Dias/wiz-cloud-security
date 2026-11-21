@@ -7,7 +7,7 @@
 FROM python:3.6-slim-buster
 
 # Segredos hardcoded em variaveis de ambiente (falsos)
-ENV DB_PASSWORD="SuperSecret123!" \
+ENV DB_PASSWORD="SuperSecret12345!" \
     AWS_ACCESS_KEY_ID="AKIA4WJPWFRTQ7ZK3XNB" \
     AWS_SECRET_ACCESS_KEY="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"
 
